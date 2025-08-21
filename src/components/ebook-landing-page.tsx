@@ -339,7 +339,7 @@ const EbookLandingPage = () => {
                 disabled={isCheckoutLoading}
                 className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 disabled:opacity-50 disabled:transform-none"
               >
-                {isCheckoutLoading ? 'Traitement...' : '🚀 Acheter maintenant - 29€'}
+                {isCheckoutLoading ? 'Traitement...' : '🚀 Acheter maintenant - 7€'}
               </button>
               <button 
                 onClick={handleDownloadSample}
