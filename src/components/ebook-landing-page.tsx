@@ -581,7 +581,7 @@ const EbookLandingPage = () => {
             disabled={isCheckoutLoading}
             className="bg-white text-blue-700 px-10 py-4 rounded-xl hover:bg-gray-50 transition-all duration-300 font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 disabled:opacity-50 disabled:transform-none"
           >
-            {isCheckoutLoading ? 'Traitement en cours...' : '🎯 Obtenir l\'ebook maintenant - 29€'}
+            {isCheckoutLoading ? 'Traitement en cours...' : '🎯 Obtenir l\'ebook maintenant - 7€'}
           </button>
           <p className="text-blue-200 text-sm mt-4">
             Téléchargement instantané • Garantie satisfait ou remboursé 30 jours
