@@ -118,7 +118,7 @@ if (fs.existsSync(envPath)) {
 
 console.log('\n📋 Instructions pour configurer Lemon Squeezy :');
 console.log('1. Créez un compte sur https://lemonsqueezy.com');
-console.log('2. Créez un produit "Motiver les élèves à apprendre" à 29€');
+console.log('2. Créez un produit "Motiver les élèves à apprendre" à 7€');
 console.log('3. Générez une clé API dans Settings → API Keys');
 console.log('4. Configurez un webhook dans Settings → Webhooks');
 console.log('5. Mettez à jour le fichier .env.local avec vos informations');
