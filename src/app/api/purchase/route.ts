@@ -83,7 +83,7 @@ export async function POST(request: NextRequest) {
             <h2 style="color: #1a73e8; margin-bottom: 10px;">Confirmation de votre commande</h2>
             <p style="margin-bottom: 8px;">Bonjour ${sanitizedCustomer.name},</p>
             <p style="margin-bottom: 8px;">Merci pour votre achat !</p>
-            <p style="margin-bottom: 8px;">Vous avez commandé l'ebook "Motiver les élèves à apprendre" pour 29€.</p>
+            <p style="margin-bottom: 8px;">Vous avez commandé l'ebook "Motiver les élèves à apprendre" pour 7€.</p>
             <p style="margin-bottom: 8px;">Pour finaliser votre commande, veuillez cliquer sur le lien ci-dessous :</p>
             <p style="margin-bottom: 8px;"><a href="${checkoutUrl}" style="color: #1a73e8; text-decoration: none; font-weight: bold;">Finaliser ma commande</a></p>
             <p style="margin-bottom: 8px;">Une fois le paiement effectué, vous recevrez un email avec le lien de téléchargement de l'ebook.</p>
